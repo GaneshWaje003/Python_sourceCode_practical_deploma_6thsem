@@ -1,4 +1,4 @@
-# # Create a tuple and find the minimum and maximum number from it
+# Create a tuple and find the minimum and maximum number from it
 # tup = (12,32,4,65,3,89,12)
 # min = tup[0]
 # max = 0
@@ -27,15 +27,3 @@
 # print(new_tup)
             
             
-
-
-# print the number in words for Example: 1234 => One Two Three Four  
-num = 1234
-rev =0
-
-while num > 0 :
-    rem = num % 10 
-    rev = rev*10 + rem
-    num = int(num/10)
-    
-print("Reverse of given number is :",rev)
