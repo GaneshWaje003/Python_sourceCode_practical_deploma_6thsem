@@ -4,9 +4,13 @@
 import numpy as np
 a = np.array([[1,2,3],[3,4,5],[5,71,2]])
 b = np.array([[2,4,3],[9,8,6],[6,2,7]])
+
 print("Addition of matrices is :\n",np.add(a,b))
+
 print("Subraction of matrices is :\n",np.subtract(a,b))
+
 print("Multiplication of matrices is : \n",np.multiply(a,b))
+
 print("Division of martrices is :\n",np.divide(a,b))
 
 
